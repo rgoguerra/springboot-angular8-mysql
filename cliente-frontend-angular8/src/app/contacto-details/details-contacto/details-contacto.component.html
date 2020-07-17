@@ -1,0 +1,20 @@
+
+<h2>Contacto Detalles</h2>
+
+<hr/>
+<div *ngIf="contacto">
+  <div>
+    <label><b>First Name: </b></label> {{contacto.firstName}}
+  </div>
+  <div>
+    <label><b>Last Name: </b></label> {{contacto.lastName}}
+  </div>
+  <div>
+    <label><b>Email Id: </b></label> {{contacto.emailId}}
+  </div>
+</div>
+
+<br>
+<br>
+<button (click)="list()" class="btn btn-primary">Regresar a la lista de Contactos</button><br>
+
